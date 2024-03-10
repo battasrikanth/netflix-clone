@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India - Watch TV Show and Movies</title>
+    <link rel="icon" href="assets/images/N.png" type="image/x-icon">
+    <link rel="stylesheet" href="netflix.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <span class="logo"><img src="assets/images/logo.png" /></span>
+        <div>
+          <select name="lang" id="lang">
+            <option value="english">English</option>
+            <option value="Hindi">हिंदी</option>
+          </select>
+          <a href="https://www.netflix.com/in/login"> <button class="btn-red-sm">  Sign In</button></a>
+        </div>
+      </nav>
+      <div class="box"></div>
+      <div id="curve">
+        <img src="assets/images/netflixcurve.png" />
+      </div>
+
+      <div class="hero">
+        <div>Unlimited movies,TV <br>shows and more</div>
+        <div>Starts at ₹149. Cancel anytime.</div>
+        <div>
+          Ready to watch? Enter your email to create or restart your membership.
+        </div>
+        <div class="hero-buttons">
+          <input type="text" placeholder="Email Adress" id="email"/>
+          <button class="btn-red">Get Started &#10095;</button>
+        </div>
+      </div>
+    </div>
+    <section class="section1">
+    <div class="section-intro">A plan to suit your needs </div>
+      <div class="section-elements">
+      <div>
+        <p class="heading">PREMIUM</p>
+        <p class="discription">A cinematic experience with the best picture and audio quality.</p>
+        <p class="price">$649/month</p>
+      </div>
+      <div>
+        <p class="heading">STANDARD</p>
+        <p class="discription">All the entertainment you love, in Full HD video quality.</p>
+        <p class="price">$499/month</p>
+      </div>
+      <div><p class="heading">BASIC</p>
+        <p class="discription">A great way to enjoy all your favourite shows and movies on a budget.</p>
+        <p class="price">$199/month</p></div>
+        <div><p class="heading">MOBILE</p>
+          <p class="discription">A travel friendly option for your mobile devices.</p>
+          <p class="price">$149/month</p></div>
+    </section>
+    <section>
+      <div class="section-intro">Trending Now</div>
+      <div class="sec-btns">
+        <select name="region" id="region" class="region">
+          <option value="india">India</option>
+          <option value="global">Global</option>
+        </select>
+        <select name="content" id="content" class="content">
+          <option value="movies">Movies</option>
+          <option value="tvshows">Tv Shows</option>
+        </select>
+      </div>
+      <br>
+
+      <div class="carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell">
+          <img src="assets/images/dunki.jpg" alt="poster">
+        </div>
+        <div class="carousel-cell">
+          <img src="assets/images/bhakshak.jpg" alt="poster">
+        </div>
+        <div class="carousel-cell"><img src="assets/images/animal.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/guntur telugu.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/guntur.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/dunc.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/looking.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/hipapa.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/jawan.jpg" alt="poster"></div>
+        <div class="carousel-cell"><img src="assets/images/salaar.jpg" alt="poster"></div>  
+      </div>
+    </section>
+    <section>
+      <div class="section-intro">Get More From Your Membership</div>
+      <div class="container">
+        <div>
+        <p class="heading">Mobile games now included in every plan</p>
+        <p class="discription">No ads, extra fees, or in-app purchases. Enjoy unlimited access to a growing catalogue of popular and exclusive games.</p></div>
+        <img src="assets/images/sec2picc.png" alt="sec2pic" class="sec2">
+      </div> 
+    </section>
+    <section>
+      <div class="section-intro">More reasons to join</div>
+      <div class="container2">
+       <div>
+       <p class="heading"> Stories tailored to your taste</p>
+       <img src="assets/images/star.png">
+       </div>
+       <div class="hands">
+       <p class="heading">Cancel or switch plans anytime</p>
+      <img src="assets/images/hands.png" alt=""></div>
+       <div class="spl heart">
+       <p class="heading">A place just for kids</p>
+      <img src="assets/images/heart.png" alt=""></div>
+       <div class="spl tv">
+       <p class="heading">For your phone, tablet, laptop and TV</p>
+      <img src="assets/images/tv.png" alt=""></div>
+      </div>
+    </section>
+    <section>
+      <div class="section-intro">Frequently Asked Questions</div>
+      <div class="faqbox">
+        <div>What is Netflix? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+          <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg></div>
+        <div>How much does Netflix cost?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+          <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg></div>
+        <div>Where can  I watch?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+          <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg></div>
+        <div>How do I cancel?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+          <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg></div>
+        <div>What can I watch on Netflix<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+          <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg></div>
+        <div>Is Netflix good for kids?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+          <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg></div>
+      </div>
+    </section>
+    <section class="footer">
+      <div>
+        Ready to watch? Enter your email to create or restart your membership.
+      </div>
+      <div class="lastinput" id="lastinput">
+        <input type="text" placeholder="Email Adress" />
+        <button class="btn-red">Get Started &#10095;</button>
+      </div>
+      <div class="end">
+        <p>Any Questions? Call <a href="tel:000-800-919-1694">000-800-919-1694</a></p>
+        <div class="links">
+          <ul>
+          <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+          <li><a href="https://help.netflix.com/en/">Help center</a></li>
+          <li><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a></li>
+          <li><a href="https://media.netflix.com/en/">Media center</a></li>
+          <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Invester relations</a></li>
+          <li><a href="https://jobs.netflix.com/">Jobs</a></li>
+          <li><a href="https://devices.netflix.com/en/">Ways to watch</a></li>
+          <li><a href="https://help.netflix.com/legal/termsofuse">terms of use</a></li>
+          <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+          <li><a href="https://www.netflix.com/in/">Cookie preferances</a></li>
+          <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Info</a></li>
+          <li><a href="https://help.netflix.com/en/contactus">Contact us</a></li>
+          <li><a href="https://fast.com/">Speed test</a></li>
+          <li><a href="https://help.netflix.com/legal/notices">Legal Notices</a></li>
+          <li><a href="https://www.netflix.com/in/browse/genre/839338">only on Netflix</a></li>
+        </ul>
+        </div>
+        <div>
+          <select name="lang" id="lang">
+            <option value="english">English</option>
+            <option value="Hindi">हिंदी</option>
+          </select>
+        </div>
+      </div>
+
+      <p class="netflix">Netflix</p>
+
+      <p class="copyright">Copyright &copy; This site is just a clone version of Netflix homepage.All the resources used in it belongs to  @<a href="https://www.netflix.com/in/">Netflix</a> 2024.</p>
+
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
